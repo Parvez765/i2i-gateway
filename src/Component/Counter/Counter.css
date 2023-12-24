@@ -1,0 +1,11 @@
+.bgContainer{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../assets/Counter/bgImage.jpg);
+    /* height: 100vh; */
+    background-attachment: fixed;
+    padding: 40px;
+}
+.counter{
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}

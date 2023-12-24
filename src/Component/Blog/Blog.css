@@ -1,0 +1,11 @@
+.blogPost{
+   cursor: pointer;
+   /* background: blue; */
+}
+.blogImage{
+   border-radius: 12px;
+}
+.blogContainer{
+   background-color: rgb(242, 242, 255);
+   border-radius: 10px;
+}

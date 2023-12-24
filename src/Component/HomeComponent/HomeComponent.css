@@ -1,0 +1,38 @@
+.swiper, swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 10px;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+.sliderOne{
+    background-image: linear-gradient(to bottom, rgba(26, 3, 129, 0), rgba(0,0,0,1)), url(../../assets/hero/bannerOne.jpg);
+    height: 80vh;
+}
+.slideOneHead{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 50px; */
+    font-weight: 700;
+}
+.sliderTwo{
+    background-image: linear-gradient(to bottom, rgba(26, 3, 129, 0), rgba(0,0,0,1)), url(../../assets/hero/bannerTwo.jpg);
+    height: 80vh;
+}
+.sliderThree{
+    background-image: linear-gradient(to bottom, rgba(26, 3, 129, 0), rgba(0,0,0,1)), url(../../assets/hero/bannerThree.jpg);
+    height: 80vh;
+}

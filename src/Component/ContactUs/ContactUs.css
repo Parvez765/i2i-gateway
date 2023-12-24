@@ -1,0 +1,14 @@
+.contactUsContainer{
+    background: linear-gradient(#002060, #ffffff);
+    /* height: 100vh; */
+   
+    /* font-weight: 700; */
+}
+.formContainer{
+    border: 3px solid #002060;
+    border-radius: 12px;
+}
+.btnColor{
+background-color: #002060;
+color: white;
+}

@@ -1,0 +1,15 @@
+.msiBackground{
+    background: linear-gradient(#002060, #ffffff);
+    /* height: 100vh; */
+    /* padding: 60px; */
+}
+.circle {
+   
+    border-radius: 50%;
+    background-color: #002060;
+    border: 8px solid #2980b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

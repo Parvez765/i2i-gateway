@@ -1,0 +1,45 @@
+.serviceContainer{
+    background: linear-gradient(rgb(237, 237, 237), rgb(223, 223, 255));
+}
+
+
+.serviceHead{
+    /* font-size: 50px; */
+    font-weight: 600;
+    color: #002060;
+    width: fit-content;
+    border-bottom: 2px solid #002060;
+}
+.imageOne {
+    /* position: relative; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 6px 6px 6px 6px #717171;
+}
+
+ 
+.imageHeadingOne{
+    /* font-size: 35px; */
+    font-weight: 700;
+    color: #006AAC;
+}
+.imageHeadingPara{
+    /* font-size: 22px; */
+    font-weight: 400;
+    color: #002060;
+    margin-top: 12px;
+}
+.learnBtn{
+    font-weight: 700;
+    color: #006AAC;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.learnBtn:hover{
+    color: #002060;
+}
+
+
+
+
+  

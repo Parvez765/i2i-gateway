@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/74QGj7R/professional.png",
+        "name": "Personal Excellence"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/djvd9F0/group.png",
+        "name": "Team Excellence"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/frKHjvR/engineering.png",
+        "name": "Process Excellence"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/kK5C1RH/operation.png",
+        "name": "Operation Excellence"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/SNBN5QH/business.png",
+        "name": "Business Excellence"
+    }
+]
