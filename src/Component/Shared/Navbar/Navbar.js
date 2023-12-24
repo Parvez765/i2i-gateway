@@ -69,11 +69,33 @@ const NavBar = () => {
           >
             <ul className="navbar-nav ">
              <Link to="/">
-                <li className="nav-link px-10">
+                <li className="nav-link px-3 text-[18px]">
                     Home
                 </li>
               </Link>
-              <li
+              <Link to="/about">
+                <li className="nav-link px-3 text-[18px]">
+                    About I2I
+                </li>
+              </Link>
+              <Link to="/solutions">
+                <li className="nav-link px-3 text-[18px]">
+                    Our Solutions
+                </li>
+              </Link>
+              <Link to="/portfolio">
+                <li className="nav-link px-3 text-[18px]">
+                    Portfolio
+                </li>
+              </Link>
+              <Link to="/">
+                <li className="nav-link px-3 text-[18px]">
+                    Gallery
+                </li>
+              </Link>
+
+              {/* Not Working DropDowns */}
+              {/* <li
                 className={`nav-item dropdown ${
                   activeAboutDropdown === "about" ? "active" : ""
                 }`}
@@ -109,8 +131,8 @@ const NavBar = () => {
                     </li>
                   </Link>
                 </ul>
-              </li>
-              <li
+              </li> */}
+              {/* <li
                 className={`nav-item dropdown ${
                   activeServicesDropdown === "services" ? "active" : ""
                 }`}
@@ -146,7 +168,7 @@ const NavBar = () => {
                     </li>
                   </Link>
                 </ul>
-              </li>
+              </li> */}
          
               
 

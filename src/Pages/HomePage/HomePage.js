@@ -10,6 +10,7 @@ import ClientsLogo from '../../Component/ClientsLogo/ClientsLogo';
 import Counter from '../../Component/Counter/Counter';
 import Contrabution from '../../Component/Contributation/Contributation';
 import WhatWeDo from '../../Component/WhatWeDo/WhatWeDo';
+import ApprovedBy from '../../Component/ApprovedBy/ApprovedBy';
 
 const HomePage = () => {
     return (
@@ -20,11 +21,10 @@ const HomePage = () => {
             <Structure />
             <OurServices />
             <Industries/>
-            {/* <SEED /> */}
-            <Testimonials />
             <Counter/>
              {/* <Contrabution/> */}
             <ClientsLogo/>
+            <ApprovedBy/>
         </div>
     );
 };

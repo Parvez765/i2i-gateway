@@ -15,6 +15,9 @@ import blogs from '../data/blogs';
 import Programme from "../Pages/Programme/Programme";
 import SingleServiceDetail from "../Component/SingleServiceDetail/SingleServiceDetail";
 import { services } from "../data/services";
+import Solutions from "../Pages/Solutions/Solutions";
+import ProjectDetail from "../Component/ProjectDetail/ProjectDetail";
+import { projectData } from "../data/projectsData";
 
 
 
@@ -69,6 +72,18 @@ export const router = createBrowserRouter([
                     const serviceDetail = services?.find((service) => service?.id === parseInt(params?.id))
                     return serviceDetail
                 }
+            },
+            {
+                path : "/project/:id",
+                element : <ProjectDetail/>,
+                loader: ({params}) => {
+                    const projectDetail = projectData?.find(project => project?.id === parseInt(params?.id))
+                    return projectDetail
+                }
+            },
+            {
+                path : "/solutions",
+                element : <Solutions/>
             }
         ]
     }
