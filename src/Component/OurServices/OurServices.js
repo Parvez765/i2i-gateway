@@ -1,69 +1,37 @@
-import React from "react";
-import "./OurService.css";
-import { FaAngleRight } from "react-icons/fa";
-import SectionHeading from "../SectionHeading";
-import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+import React from 'react';
+import "./OurServices.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+import SectionHeading from '../SectionHeading';
+import { services } from '../../data/services';
+import Button from '../Button';
+import { Link } from 'react-router-dom';
+// ..
+AOS.init();
 
-// import required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-import { services } from "../../data/services";
-import { Link } from "react-router-dom";
-import Button from "../Button";
-import { projectData } from "../../data/projectsData";
 
 const OurServices = () => {
-  return (
-    <div className="serviceContainer">
-      <div className="container mx-auto p-10">
-        <SectionHeading title={"Our projects"} />
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={10}
-          pagination={{
-            clickable: true,
-          }}
-          breakpoints={{
-            640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
-            },
-            768: {
-              slidesPerView: 2,
-              spaceBetween: 40,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 50,
-            },
-          }}
-          modules={[Pagination]}
-          className="mySwiper"
-        >
-{
-                    projectData?.map(project => 
-                        <SwiperSlide>
-                    <div className="card glass relative">
-                    <figure><img src={project.image}  alt="car!"/></figure>
-                    <div className="card-body absolute bottom-0 w-full p-5 bg-black bg-opacity-50">
-                      <h2 className="card-title text-white">{project.title}</h2>
-                      {/* <p>{service.description}</p> */}
+    return (
+        
+        <div className='container mx-auto p-10'>
+          <SectionHeading title={"Services We Offer"}/>
+             <p className='text-center mb-[24px] lg:w-[850px] block mx-auto'>We provide contracting services for all Electrical, HVAC, Mechanical & Plumbing works in projects. It includes bids preparation, planning & execution of works, coordination with all players etc. A professional, experienced, trained & educated workforce is deployed to carry out each job.</p>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[16px]'>
+                {
+                    services?.map(service => <div className="card glass">
+                    <figure><img src={service.image}  alt="car!"/></figure>
+                    <div className="card-body">
+                      <h2 className="card-title">{service.name}</h2>
+                      <p className='serviceDescription'>{service.description}</p>
                       <div className="card-actions">
-                        <Link to={`/project/${project.id}`}><Button title={"Detail"} className=""/></Link>
+                        <Link to={`/service/${service.id}`}><Button title={service.buttonText}/></Link>
                       </div>
                     </div>
-                  </div>
-                  </SwiperSlide>
-                  )
+                  </div>)
                 }
-
-        </Swiper>
-        
-      </div>
-    </div>
-  );
+            </div>
+        </div>
+    );
 };
 
 export default OurServices;
