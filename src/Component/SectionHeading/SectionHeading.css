@@ -1,0 +1,8 @@
+.sectionHeading{
+    border-bottom: 2px solid red;
+    padding: 10px;
+    max-width: 750px;
+}
+.sectionHeading h1{
+    font-weight: 700;
+}

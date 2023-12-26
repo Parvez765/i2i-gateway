@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionHeading from '../SectionHeading';
+import SectionHeading from '../SectionHeading/SectionHeading';
 import fssd from '../../assets/clients/fssd.png'
 import dife from '../../assets/clients/dife.png'
 import usgbc from '../../assets/clients/usgbc.png'

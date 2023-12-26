@@ -1,7 +1,7 @@
 import React from "react";
 import "./OurProjects.css";
 import { FaAngleRight } from "react-icons/fa";
-import SectionHeading from "../SectionHeading";
+import SectionHeading from "../SectionHeading/SectionHeading";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";

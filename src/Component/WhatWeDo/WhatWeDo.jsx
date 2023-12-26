@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionHeading from '../SectionHeading';
+import SectionHeading from '../SectionHeading/SectionHeading';
 import { whatWeDo } from '../../data/whatWeDo';
 
 const WhatWeDo = () => {
