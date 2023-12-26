@@ -1,7 +1,21 @@
 .sectionHeading{
-    border-bottom: 2px solid red;
     padding: 10px;
     max-width: 750px;
+}
+.sectionHeading p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sectionHeading p:after{
+    content:"";
+    display: block;
+    height: 2px;
+    max-width: 550px;
+    width: 100%;
+    background-color: #00247E;
+    margin-top: 20px;
 }
 .sectionHeading h1{
     font-weight: 700;
