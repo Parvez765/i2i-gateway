@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
             <WhoWeAre/>
-            <KeyConsultants/>
+            {/* <KeyConsultants/> */}
         </div>
     );
 };

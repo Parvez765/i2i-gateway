@@ -7,7 +7,7 @@ const Structure = () => {
     return (
         <div className='serviceBg pb-[40px]'>
            
-            <div className='container mx-auto flex gap-[32px] items-center'>
+            <div className='container mx-auto flex flex-col lg:flex-row gap-[32px] items-center'>
                 <div>
                     <figure>
                         <img src="https://i.ibb.co/YfNjvjF/electricity.jpg" alt="Energy Images" className='lg:w-[800px]'/>

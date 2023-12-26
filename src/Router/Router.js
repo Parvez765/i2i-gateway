@@ -34,7 +34,7 @@ export const router = createBrowserRouter([
                 path: "/testimonial", element: <TestimonialPage/>
             },
             {
-                path: "/whoweare", element: <About/>
+                path: "/about", element: <About/>
             },
             {
                 path : "/leantransformation", element: <LeanTransformationPage/>

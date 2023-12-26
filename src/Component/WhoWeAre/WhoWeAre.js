@@ -1,26 +1,26 @@
 import React from 'react';
 import FlipCard from '../FlipCard/FlipCard';
 import WhoWeArePyramid from './WhoWeArePyramid';
+import SectionHeading from '../SectionHeading/SectionHeading';
 
 
 
 const WhoWeAre = () => {
     return (
-        <div className='' data-aos="fade-right">
-           <div className='container mx-auto'>
-            <h1 className='text-center text-[35px] lg:text-[50px] text-[#002060] font-bold p-8 lg:pt-10'>The MindWork Ways</h1>
-                <p className='lg:mt-[30px] mb-[30px] text-center lg:text-[22px] lg:w-[1400px] p-8 lg:p-0 block mx-auto'>Mindworks is an organization that strives to achieve excellence through people transformation. We help companies achieve operational excellence through continuous improvement. The Minworks Way is to work with your organization to help you achieve lean operations and build a culture of continuous improvement.
+        <div className='container mx-auto'>
+           <div className='px-6 lg:px-0'>
+             <SectionHeading title={"About I2I Gateway"} subtitle={"Empowering Industries with Premier MEP & FIRE Solutions"}/>
+             <div className='flex flex-col lg:flex-row justify-center items-center gap-[24px]'>
+                <div>
+                    <figure><img src="https://i.ibb.co/jkwBh39/about-image.jpg" alt="I2I Gateway About Images" className='w-full rounded-lg aboutImages'/></figure>
+                </div>
+                <div>
+                    <p className='text-[18px]'>I2I Gateway stands as a premier consultancy firm specializing in professional mechanical, electrical, and plumbing (MEP & FIRE) services. Established with a clear focus on delivering 360-degree solutions, we cater to the rapidly evolving industrial and commercial sectors in Bangladesh. <br/><br/> Our comprehensive suite of services spans from feasibility studies and risk analysis to engineering planning, project management, and MEP project oversight. With a dedicated team committed to high-tech modeling and world-class solutions, we prioritize client satisfaction by offering expertise, development, and operational skills in an efficient and cost-effective manner. </p>
 
-                    Mindworks’ core philosophy is that in business, there is no one-size-fits-all solution. Each problem is different and hence requires a totally customized solution. With this core value, Mindworks provides customized solutions to help organizations improve productivity and efficiency, reduce defect rate and operational costs, and improve the overall profitability of the company. Consulting and training solutions are designed to achieve long-term sustainability.</p>
-           </div>
-
-            {/* Strategic Idea */}
-           <div className='mt-[50px]'>
-            <WhoWeArePyramid/>
-           </div>
-            <p className='mt-[25px] lg:mt-[95px] text-center lg:text-[22px] lg:w-[1400px] p-8 lg:p-0 block mx-auto'>We believe in bringing about change through process and people transformation.We work with organizations to improve their value chain processes and making them lean. Our strategic, tactical, and operational approach aims to drive change across the value chain which ensures a high success rate in business process improvement. Our customized training solutions are designed to teach people by doing, inspiring them to change for their own good, and for the betterment of the company.</p>
-            <FlipCard/>
-            <p className='mb-[50px] text-center lg:text-[22px] lg:w-[1400px] p-8 lg:p-0 block mx-auto'>With international operations and offices in India, Bangladesh and Vietnam, Mindworks offers localized business solutions that cater to the market demands of South-East Asian countries.</p>
+                    <p className='text-[18px] mt-[20px] lg:hidden 2xl:block'>At I2I Gateway, we pride ourselves on offering a wide spectrum of professional services that encompass the entire project lifecycle. From conducting in-depth feasibility studies and risk analysis to engineering planning and concept development, our expertise extends to crafting construction-level design solutions that align with your vision and objectives. Moreover, our portfolio includes project management, procurement support, construction monitoring, supervision, inspection, and expediting of MEP projects, catering to a diverse clientele across industries.</p>
+                </div>
+             </div>
+            </div>
         </div>
     );
 };

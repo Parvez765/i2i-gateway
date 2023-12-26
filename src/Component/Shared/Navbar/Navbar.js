@@ -88,7 +88,7 @@ const NavBar = () => {
                     Portfolio
                 </li>
               </Link>
-              <Link to="/">
+              <Link to="/gallery">
                 <li className="nav-link px-3 text-[18px]">
                     Gallery
                 </li>
