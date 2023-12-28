@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./OurServices.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -11,6 +11,9 @@ AOS.init();
 
 
 const OurServices = () => {
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
     return (
         
         <div className='container mx-auto p-10'>
@@ -29,6 +32,9 @@ const OurServices = () => {
                   </div>)
                 }
             </div>
+            <div className='flex justify-center' ><Link to='/solutions'>
+            <button className='bg-blue-500 px-6 py-3 text-white mt-[16px] customButton'>All Services</button></Link>
+        </div>
         </div>
     );
 };

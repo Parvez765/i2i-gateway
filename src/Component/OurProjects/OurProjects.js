@@ -12,7 +12,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { services } from "../../data/services";
 import { Link } from "react-router-dom";
 import Button from "../Button";
-import { projectData } from "../../data/projectsData";
+import { projectData } from "../../data/projectData";
 
 const OurProjects = () => {
   return (

@@ -17,7 +17,10 @@ import SingleServiceDetail from "../Component/SingleServiceDetail/SingleServiceD
 import { services } from "../data/services";
 import Solutions from "../Pages/Solutions/Solutions";
 import ProjectDetail from "../Component/ProjectDetail/ProjectDetail";
-import { projectData } from "../data/projectsData";
+import { projectData } from "../data/projectData";
+import Portfolio from "../Pages/Portfolio/Portfolio";
+import Gallery from "../Pages/Gallery/Gallery";
+import SinglePortfolio from "../Component/SinglePortfolio/SinglePortfolio";
 
 
 
@@ -84,6 +87,22 @@ export const router = createBrowserRouter([
             {
                 path : "/solutions",
                 element : <Solutions/>
+            },
+            {
+                path : "/portfolio",
+                element : <Portfolio/>
+            },
+            {
+                path : "/gallery",
+                element : <Gallery/>
+            },
+            {
+                path : "/portfolio/:id",
+                element : <SinglePortfolio/>,
+                loader: ({params}) => {
+                    const projectDescription = projectData?.find(projectData => projectData.id === parseInt(params.id))
+                    return projectDescription
+                }
             }
         ]
     }

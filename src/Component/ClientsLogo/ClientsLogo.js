@@ -27,7 +27,7 @@ const ClientsLogo = () => {
             <Swiper
               slidesPerView={2}
               spaceBetween={10}
-              autoplay={{ delay: 300, disableOnInteraction: false }}
+              autoplay={{ delay: 1000, disableOnInteraction: false }}
               breakpoints={{
                 640: {
                   slidesPerView: 2,

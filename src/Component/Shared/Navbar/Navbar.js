@@ -244,7 +244,7 @@ const NavBar = () => {
       <div className="block lg:hidden">
         {cross ? (
           <div className="block 2xl:hidden" onClick={handleDrawerToggle}>
-          <FaBars className="text-[white] text-[22px]" />
+          <FaBars className="text-[22px]" />
         </div>
         ) : (
           <div className="drawer drawer-end">

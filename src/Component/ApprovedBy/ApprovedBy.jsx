@@ -9,7 +9,7 @@ const ApprovedBy = () => {
     return (
         <div>
             <SectionHeading title={"We are approved by"}/>
-            <div className='container mx-auto grid lg:grid-cols-4 sm:grid-cols-2'>
+            <div className='container mx-auto grid lg:grid-cols-4 justify-items-center sm:grid-cols-2'>
                 <div>
                     <img src={fssd} alt="" />
                 </div>
