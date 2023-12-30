@@ -35,21 +35,21 @@ const Footer = () => {
                         </div>
                         <div className='mt-[50px] lg:mt-[0px]'>
                             <h1 className='text-[#002060] text-[16px] 2xl:text-[18   px] mindWorksHead mb-[20px]'>Quick Links</h1>
-                            <Link to="/consulting"><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' /> About Us</p></Link>
-                            <Link to="/msi"><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />Career</p></Link>
-                            <Link to="/training"><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />Get Quote</p></Link>
-                            <Link to="/seed"><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />News</p></Link>
-                            <Link to="/leantransformation"><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />FAQ</p></Link>
+                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' /> About Us</p></Link>
+                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />Career</p></Link>
+                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />Get Quote</p></Link>
+                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />News</p></Link>
+                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />FAQ</p></Link>
 
                         </div>
                         
                     </div>
                     <div className='mt-[50px] lg:mt-[0px]'>
                             <h1 className='text-[#002060] text-[16px] 2xl:text-[18px] mindWorksHead mb-[20px]'>Get In Touch</h1>
-                            <Link to="/consulting"><p className='mb-[10px] flex items-center gap-[12px]'><FaLocationArrow className='text-[20px]' /> House-43, Road-6, Block-D, Mirpur-12, Dhaka-1216</p></Link>
-                            <Link to="/msi"><p className='mb-[10px] flex items-center gap-[12px]'><FaPhoneAlt className='text-[14px]' />+880 1815-098035</p></Link>
-                            <Link to="/training"><p className='mb-[10px] flex items-center gap-[12px]'><FaMailBulk className='text-[14px]' />Info@I2igateway.com</p></Link>
-                            <Link to="/seed"><p className='mb-[10px] flex items-center gap-[12px]'><FaClock className='text-[14px]' />Sat - Thu : 9am to 6pm</p></Link>
+                           <p className='mb-[10px] flex items-center gap-[12px]'><FaLocationArrow className='text-[20px]' /> House-43, Road-6, Block-D, Mirpur-12, Dhaka-1216</p>
+                           <p className='mb-[10px] flex items-center gap-[12px]'><FaPhoneAlt className='text-[14px]' />+880 1815-098035</p>
+                           <p className='mb-[10px] flex items-center gap-[12px]'><FaMailBulk className='text-[14px]' />Info@I2igateway.com</p>
+                           <p className='mb-[10px] flex items-center gap-[12px]'><FaClock className='text-[14px]' />Sat - Thu : 9am to 6pm</p>
                           
 
                         </div>

@@ -10,7 +10,7 @@ import {
   FaShareSquare,
   FaTwitter,
 } from "react-icons/fa";
-import {GrClose} from "react-icons/gr"
+import { GrClose } from "react-icons/gr"
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -48,16 +48,16 @@ const NavBar = () => {
   };
 
   return (
-  
-       <nav className="navbar">
-      <div className="container mx-auto navContainer">
-        <div className="">
+
+    <nav className="navbar">
+      <div className="container mr-auto lg:mx-auto navContainer">
+        <div >
           <Link to="/">
-            
+
             <img
               src="https://i.ibb.co/cwRJShV/logo.png"
               alt="I2I Gateway Navbar Logo"
-              className="w-[120px] lg:w-[250px]"
+
             />
           </Link>
         </div>
@@ -68,29 +68,29 @@ const NavBar = () => {
             onMouseLeave={handleMouseLeave}
           >
             <ul className="navbar-nav ">
-             <Link to="/">
+              <Link to="/">
                 <li className="nav-link px-3 text-[18px]">
-                    Home
+                  Home
                 </li>
               </Link>
               <Link to="/about">
                 <li className="nav-link px-3 text-[18px]">
-                    About I2I
+                  About I2I
                 </li>
               </Link>
               <Link to="/solutions">
                 <li className="nav-link px-3 text-[18px]">
-                    Our Solutions
+                  Our Solutions
                 </li>
               </Link>
               <Link to="/portfolio">
                 <li className="nav-link px-3 text-[18px]">
-                    Portfolio
+                  Portfolio
                 </li>
               </Link>
               <Link to="/gallery">
                 <li className="nav-link px-3 text-[18px]">
-                    Gallery
+                  Gallery
                 </li>
               </Link>
 
@@ -169,8 +169,8 @@ const NavBar = () => {
                   </Link>
                 </ul>
               </li> */}
-         
-              
+
+
 
               {/* <li
                 className={`nav-item dropdown ${
@@ -238,126 +238,80 @@ const NavBar = () => {
           </div>
         </div>
 
-       
+
       </div>
       {/* Drawer Section */}
-      <div className="block lg:hidden">
-        {cross ? (
-          <div className="block 2xl:hidden" onClick={handleDrawerToggle}>
-          <FaBars className="text-[22px]" />
-        </div>
-        ) : (
-          <div className="drawer drawer-end">
-            <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content">
-              {/* Page content here */}
-              <label htmlFor="my-drawer-4" className="drawer-button">
-                <FaBars
-                  onClick={() => setCross(cross)}
-                  className="text-[white] text-[22px]"
-                />
-              </label>
+      <div>
+        <div className="block lg:hidden">
+          {cross ? (
+            <div className="block 2xl:hidden" onClick={handleDrawerToggle}>
+              <FaBars className="text-[22px]" />
             </div>
-            {!cross && (
-              <div className="drawer-side">
-                <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
-                  {/* Sidebar content here */}
-                  <div className="">
-                    <GrClose
-                      className="text-[black] text-[22px] mb-[30px]"
-                      onClick={handleShareClick}
-                    />
-                  </div>
-                  <li>
-                    <details>
-                      <summary className="nav-links">Services</summary>
-                      <ul className="p-2">
-                        <Link to="/consulting">
-                          <li className="nav-links">
-                            <a>Consulting</a>
-                          </li>
-                        </Link>
-                        <Link to="/msi">
-                          <li className="nav-links">
-                            <a>Msi</a>
-                          </li>
-                        </Link>
-                        <Link to="/training">
-                          <li className="nav-links">
-                            <a>Training</a>
-                          </li>
-                        </Link>
-                      </ul>
-                    </details>
-                  </li>
-                  <Link to="/seed">
-                    <li className="nav-links">
-                      <a>SEED</a>
-                    </li>
-                  </Link>
-                  <Link to="/leantransformation">
-                    <li className="nav-links">
-                      <a>Lean Transformation</a>
-                    </li>
-                  </Link>
-                  <li>
-                    <details>
-                      <summary className="nav-links">About Us</summary>
-                      <ul className="p-2">
-                        <Link to="/whoweare">
-                          <li className="nav-item">
-                            <a href="#about2" className="nav-links">
-                              Who We Are
-                            </a>
-                          </li>
-                        </Link>
-                        <Link to="/testimonial">
-                          <li className="nav-item mt-[10px]">
-                            <a href="#about1" className="nav-links">
-                              Testimonial
-                            </a>
-                          </li>
-                        </Link>
-                        <Link to="/contact">
-                          <li className="nav-links">
-                            <a>Contact</a>
-                          </li>
-                        </Link>
-                      </ul>
-                    </details>
-                  </li>
-                  <Link to="/programme">
-                    <li className="nav-links">
-                      <a>Programmes</a>
-                    </li>
-                  </Link>
-                  <Link to="/blog">
-                    <li className="nav-links">
-                      <a>Blog</a>
-                    </li>
-                  </Link>
-                  <Link to="/contact">
-                    <div className="mt-[20px]">
-                      <button className="appoinmentMobileBtn">
-                        Schedule a call
-                      </button>
-                    </div>
-                  </Link>
-                  <div className="flex items-center gap-[16px] mt-[20px] ml-[5px]">
-                   <a href="https://www.facebook.com/mindworksbangladesh" target="_blank"> <FaFacebook className="text-black text-[22px]" /></a>
-                  <a href="https://twitter.com/MindWorks16" target="_blank"><FaTwitter className="text-black  text-[22px]" /></a>
-                  <a href="https://www.linkedin.com/company/mind-works-bangladesh/" target="_blank"><FaLinkedin className="text-black  text-[22px]" /></a>
-                    {/* <FaInstagram className="text-black  text-[22px]" /> */}
-                  </div>
-                </ul>
+          ) : (
+            <div className="drawer drawer-end">
+              <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+              <div className="drawer-content">
+                {/* Page content here */}
+                <label htmlFor="my-drawer-4" className="drawer-button">
+                  <FaBars
+                    onClick={() => setCross(cross)}
+                    className=" text-[22px]"
+                  />
+                </label>
               </div>
-            )}
-          </div>
-        )}
+              {!cross && (
+                <div className="drawer-side">
+                  <label htmlFor="my-drawer-4" className="drawer-overlay"></label>
+                  <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
+                    {/* Sidebar content here */}
+                    <div className="">
+                      <GrClose
+                        className="text-[black] text-[22px] mb-[30px]"
+                        onClick={handleShareClick}
+                      />
+                    </div>
+                    <Link to="/">
+                <li className="nav-links text-[18px] mb-[8px]">
+                    Home
+                </li>
+              </Link>
+              <Link to="/about">
+                <li className="nav-links text-[18px] mb-[8px]">
+                  About I2I
+                </li>
+              </Link>
+              <Link to="/solutions">
+                <li className="nav-links text-[18px] mb-[8px]">
+                  Our Solutions
+                </li>
+              </Link>
+              <Link to="/portfolio">
+                <li className="nav-links text-[18px] mb-[8px]">
+                  Portfolio
+                </li>
+              </Link>
+              <Link to="/gallery">
+                <li className="nav-links text-[18px] mb-[8px]">
+                  Gallery
+                </li>
+              </Link>
+                   
+                  
+                    <div className="flex items-center gap-[16px] mt-[20px] ml-[5px]">
+                      <a href=""> <FaFacebook className="text-black text-[22px]" /></a>
+                      <a href="" ><FaTwitter className="text-black  text-[22px]" /></a>
+                      <a href="" ><FaLinkedin className="text-black  text-[22px]" /></a>
+                      {/* <FaInstagram className="text-black  text-[22px]" /> */}
+                    </div>
+                  </ul>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </nav>
- 
+
   );
 };
 

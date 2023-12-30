@@ -11,7 +11,7 @@ const Main = () => {
         <TopNav />
         <Navbar />
       </div>
-      <div className="mt-[100px]">
+      <div>
 
       <Outlet />
       </div>
