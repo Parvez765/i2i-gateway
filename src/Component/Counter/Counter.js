@@ -12,7 +12,7 @@ const Counter = () => {
 
             </div>
             <section>
-                <div className='mt-[50px] mb-[50px] grid lg:grid-cols-3 justify-items-center text-center'>
+                <div className='mt-[50px] mb-[50px] grid lg:grid-cols-4 md:grid-cols-2 justify-items-center text-center'>
                     <div> <CountUp end={34} duration={8} className='counter' />
                         <p className='text-[20px] 2xl:text-[30px] -mt-[16px] font-medium text-white'>Project Completed</p>
                     </div>
