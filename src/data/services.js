@@ -1,8 +1,8 @@
 export const services = [
     {
         id: 1,
-        name : 'MECHANICAL SERVICES',
-        description : `We handle the seamless installation of mechanical systems, ensuring precision and adherence to industry standards. Whether it's plumbing, piping, or equipment installation, our skilled technicians guarantee quality workmanship. At the forefront of our service offerings lies an unwavering commitment to delivering flawless installations of mechanical systems. With an acute focus on precision and an unwavering dedication to industry standards, we ensure that every facet of our work embodies excellence. Our skilled and adept technicians are the backbone of our operations, possessing an unparalleled expertise that guarantees the seamless implementation of plumbing, piping, and equipment installations.
+        name: 'MECHANICAL SERVICES',
+        description: `We handle the seamless installation of mechanical systems, ensuring precision and adherence to industry standards. Whether it's plumbing, piping, or equipment installation, our skilled technicians guarantee quality workmanship. At the forefront of our service offerings lies an unwavering commitment to delivering flawless installations of mechanical systems. With an acute focus on precision and an unwavering dedication to industry standards, we ensure that every facet of our work embodies excellence. Our skilled and adept technicians are the backbone of our operations, possessing an unparalleled expertise that guarantees the seamless implementation of plumbing, piping, and equipment installations.
 
         When it comes to plumbing, we recognize its pivotal role in any structure, whether residential, commercial, or industrial. Our approach to plumbing installations is multifaceted, beginning with meticulous planning and assessment. Understanding the intricacies of the location and the unique requirements of each project, we craft customized solutions that optimize functionality and efficiency. Whether it involves intricate pipe routing, fixture installation, or system integration, our technicians execute each task with finesse and attention to detail. We ensure that every connection is secure, every joint is perfectly sealed, and every component is installed to endure the test of time.
         
@@ -15,9 +15,9 @@ export const services = [
         Moreover, our dedication extends beyond the installation phase. We believe in fostering enduring relationships with our clients, offering post-installation support and maintenance services. Our goal is to ensure that the systems we install continue to operate at peak performance, minimizing downtime and maximizing efficiency for our clients.
         
         In essence, our approach to mechanical system installations is defined by precision, expertise, and an unwavering commitment to excellence. We take pride in delivering installations that stand as testaments to quality workmanship, setting benchmarks in the industry and exceeding the expectations of our valued clients.`,
-        image : "https://i.ibb.co/k15DKh2/MECHANICAL-ENGINEERING.jpg",
-        buttonText : "Read More",
-        content : [
+        image: "https://i.ibb.co/k15DKh2/MECHANICAL-ENGINEERING.jpg",
+        buttonText: "Read More",
+        content: [
             "Steam, Compress airline & Process water distribution system",
             "Mechanical ventilation system",
             "Smoke exhaust ventilation system",
@@ -28,8 +28,8 @@ export const services = [
     },
     {
         id: 2,
-        name : 'ELECTRICAL SERVICES',
-        description : `Our company takes immense pride in offering a comprehensive suite of electrical services designed to meet a diverse array of needs. With a commitment to safety, precision, and customer satisfaction, our team stands as a beacon of excellence in the realm of electrical solutions. From installation and upgrades to maintenance and troubleshooting, we are dedicated to ensuring your electrical systems operate flawlessly, catering to both residential and commercial clients.
+        name: 'ELECTRICAL SERVICES',
+        description: `Our company takes immense pride in offering a comprehensive suite of electrical services designed to meet a diverse array of needs. With a commitment to safety, precision, and customer satisfaction, our team stands as a beacon of excellence in the realm of electrical solutions. From installation and upgrades to maintenance and troubleshooting, we are dedicated to ensuring your electrical systems operate flawlessly, catering to both residential and commercial clients.
 
         Installation Mastery:
         
@@ -54,9 +54,9 @@ export const services = [
         In conclusion, our electrical services encompass a holistic approach aimed at delivering excellence and reliability. From installations to upgrades, maintenance, troubleshooting, and beyond, our team is dedicated to providing unparalleled expertise, ensuring your electrical systems operate optimally, safely, and efficiently.
         
         We stand ready to serve your electrical needs, empowering you with solutions that merge innovation, safety, and functionality to elevate your spaces and ensure uninterrupted power, security, and convenience.`,
-        image : "https://i.ibb.co/zxMsr2m/Electrical-Services.jpg",
-        buttonText : "Read More",
-        content : [
+        image: "https://i.ibb.co/zxMsr2m/Electrical-Services.jpg",
+        buttonText: "Read More",
+        content: [
             "Standby power generations and distribution system",
             "Smart lighting control system / (DALI & KNX System)",
             "Emergency power distribution system",
@@ -79,8 +79,8 @@ export const services = [
     },
     {
         id: 3,
-        name : 'PLUMBING SERVICES',
-        description : `At I2IGateway, we understand that the heart of a functional space lies in its plumbing infrastructure. Our Electrical Plumbing Services stand as a testament to our commitment to providing seamless, reliable, and efficient solutions for all your plumbing needs. With a blend of expertise, cutting-edge technology, and a customer-centric approach, we ensure that your plumbing systems operate flawlessly, safeguarding your property and enhancing your peace of mind.
+        name: 'PLUMBING SERVICES',
+        description: `At I2IGateway, we understand that the heart of a functional space lies in its plumbing infrastructure. Our Electrical Plumbing Services stand as a testament to our commitment to providing seamless, reliable, and efficient solutions for all your plumbing needs. With a blend of expertise, cutting-edge technology, and a customer-centric approach, we ensure that your plumbing systems operate flawlessly, safeguarding your property and enhancing your peace of mind.
 
         Installation Excellence:
         
@@ -109,9 +109,9 @@ export const services = [
         In conclusion, our Electrical Plumbing Services encompass a holistic approach towards ensuring the reliability, efficiency, and longevity of your plumbing systems. With a commitment to excellence, adherence to safety standards, and a focus on customer satisfaction,We stands ready to be your trusted partner in maintaining impeccable plumbing infrastructure for your property.
         
         Contact us today to experience our comprehensive Electrical Plumbing Services tailored to meet your specific needs, providing reliable solutions and peace of mind for your plumbing systems.`,
-        image : "https://i.ibb.co/wC2QP26/Plumbing.jpg",
-        buttonText : "Read More",
-        content :[
+        image: "https://i.ibb.co/wC2QP26/Plumbing.jpg",
+        buttonText: "Read More",
+        content: [
             "Water supply & distribution system",
             "Sanitary & drainage system",
             "Water & sewage treatment system",
@@ -124,8 +124,8 @@ export const services = [
     },
     {
         id: 4,
-        name : 'FIRE SYSTEM',
-        description : `At I2IGateway, our commitment to safety extends beyond conventional measures. We specialize in providing top-tier fire system solutions, safeguarding lives, property, and peace of mind. With a meticulous focus on prevention, detection, and rapid response, our comprehensive suite of fire system services encompasses installation, maintenance, inspections, and tailored consultations.
+        name: 'FIRE SYSTEM',
+        description: `At I2IGateway, our commitment to safety extends beyond conventional measures. We specialize in providing top-tier fire system solutions, safeguarding lives, property, and peace of mind. With a meticulous focus on prevention, detection, and rapid response, our comprehensive suite of fire system services encompasses installation, maintenance, inspections, and tailored consultations.
 
         Installation Excellence:
         
@@ -150,9 +150,9 @@ export const services = [
         At [Your Company Name], our dedication to fire system services goes beyond installations and inspections; it's about creating a shield of safety that empowers businesses and communities. We are steadfast in our commitment to deliver excellence, ensuring that your fire systems operate optimally, providing robust protection and instilling confidence in the face of potential threats.
         
         Feel free to customize this description further to suit your company's specific expertise, values, and unique offerings!`,
-        image : "https://i.ibb.co/Z1rCPqL/image.png",
-        buttonText : "Read More",
-        content : [
+        image: "https://i.ibb.co/Z1rCPqL/image.png",
+        buttonText: "Read More",
+        content: [
             "Fire hydrant and sprinkler system",
             "Fire detection & alarm system",
             "Fire separation & emergency evacuation system",
@@ -164,17 +164,17 @@ export const services = [
     },
     {
         id: 5,
-        name : 'HVAC',
-        description : `Our team stands as a cornerstone in the realm of heating, ventilation, and air conditioning solutions. With an unwavering commitment to excellence, we bring forth a comprehensive array of services tailored to cater to every facet of your HVAC needs. From the meticulous installation of cutting-edge systems to the vigilant maintenance ensuring their optimal functionality, we take pride in being the guardians of your comfort and cost-effectiveness.
+        name: 'HVAC',
+        description: `Our team stands as a cornerstone in the realm of heating, ventilation, and air conditioning solutions. With an unwavering commitment to excellence, we bring forth a comprehensive array of services tailored to cater to every facet of your HVAC needs. From the meticulous installation of cutting-edge systems to the vigilant maintenance ensuring their optimal functionality, we take pride in being the guardians of your comfort and cost-effectiveness.
         
         We offer a range of HVAC engineering solutions for various applications including air-conditioning, ventilation, heating, and building management systems. Optimizing your HVAC systems isn’t just a service; it’s a commitment we uphold fervently. We leverage the latest advancements and technological innovations to enhance the efficiency of your systems. Through meticulous adjustments, upgrades, and recommendations for sustainable practices, we strive to reduce energy consumption and operational costs while ensuring uncompromised comfort. Our goal is to empower you with systems that not only meet but exceed industry standards, aligning with your sustainability goals and financial objectives.
 
         In essence, our dedication transcends mere service provision. We are partners in your quest for comfort, efficiency, and sustainability. With an unwavering focus on quality, innovation, and customer satisfaction, we stand resolute as the catalysts transforming your HVAC experiences into seamless, cost-effective, and reliably comfortable journeys.
         
         Our commitment is unwavering. Whether it’s a new installation, routine maintenance, urgent repairs, or optimizing your existing systems, our team is poised to deliver excellence at every step, ensuring your HVAC systems operate at peak efficiency, providing unparalleled comfort and cost-effectiveness tailored exclusively for you. In moments of system distress, our swift and adept team leaps into action. Equipped with profound expertise and state-of-the-art tools, we diagnose issues accurately and promptly. Whether it’s a malfunctioning component, poor airflow, or an unexpected breakdown, our technicians employ their extensive knowledge to swiftly restore your HVAC system to its optimal working condition. We prioritize transparency and reliability, offering comprehensive assessments and cost-effective solutions tailored to fit your needs.`,
-        image : "https://i.ibb.co/Yy4LGhv/Hvac.jpg",
-        buttonText : "Read More",
-        content : [
+        image: "https://i.ibb.co/Yy4LGhv/Hvac.jpg",
+        buttonText: "Read More",
+        content: [
             "Variable refrigerant flow (VRF)",
             "Chiller management",
             "HVAC automatic control system",
@@ -186,8 +186,8 @@ export const services = [
     },
     {
         id: 6,
-        name : 'INFORMATION TECHNOLOGY',
-        description : `Our EIT services begin with a meticulous analysis of your business structure and operational requirements. Understanding the intricacies of your electrical systems and IT infrastructure is paramount to creating a seamless integration plan. Whether you are looking to enhance your existing setup or embarking on a comprehensive overhaul, our experts craft strategic solutions that align with your business goals, fostering an environment where electrical and information technologies harmoniously converge.
+        name: 'INFORMATION TECHNOLOGY',
+        description: `Our EIT services begin with a meticulous analysis of your business structure and operational requirements. Understanding the intricacies of your electrical systems and IT infrastructure is paramount to creating a seamless integration plan. Whether you are looking to enhance your existing setup or embarking on a comprehensive overhaul, our experts craft strategic solutions that align with your business goals, fostering an environment where electrical and information technologies harmoniously converge.
 
         Innovative Solutions for Enhanced Efficiency:
         
@@ -210,17 +210,17 @@ export const services = [
         Embracing new technologies often requires a transition for your workforce. Our EIT services include comprehensive training programs to empower your team with the skills and knowledge needed to navigate and optimize the integrated systems. Furthermore, our dedicated support team is available round the clock, ensuring that any issues are addressed promptly, minimizing downtime and maximizing productivity.
         
         In conclusion, our Electrical Information Technology services at [Your Company Name] are not just about integrating systems; they are about empowering your business for a digitally-driven future. With a focus on innovation, efficiency, and security, we offer transformative solutions that elevate your operations, providing a solid foundation for sustained growth in the dynamic landscape of today's business world. Partner with us, and let's embark on a journey of digital transformation together.`,
-        image : "https://i.ibb.co/0MPQGQH/IT.jpg",
-        buttonText : "Read More",
-        content : [
+        image: "https://i.ibb.co/0MPQGQH/IT.jpg",
+        buttonText: "Read More",
+        content: [
             "Strategic Integration for Seamless Operations",
             "Innovative Solutions for Enhanced Efficiency",
             "Reliable Power Distribution and Management",
             "Cybersecurity Fortification for Data Integrity",
             "Scalable Solutions for Future Growth",
             "Comprehensive Training and Support",
-           
+
         ]
     },
-  
+
 ]

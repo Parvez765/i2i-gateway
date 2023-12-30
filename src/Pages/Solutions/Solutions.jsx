@@ -2,7 +2,6 @@ import React from 'react';
 import { services } from '../../data/services';
 import Button from '../../Component/Button';
 import { Link } from 'react-router-dom';
-import serviceBg from "../../assets/banner/service.png"
 import SectionBanner from '../../Component/SectionBanner/SectionBanner';
 
 const Solutions = () => {

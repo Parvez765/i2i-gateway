@@ -3,26 +3,22 @@ import HomeComponent from '../../Component/HomeComponent/HomeComponent';
 import OurServices from '../../Component/OurServices/OurServices';
 import Structure from '../../Component/Structure/Structure';
 import OurProjects from '../../Component/OurProjects/OurProjects';
-import SEED from '../../Component/SEED/SEED';
 import Industries from '../../Component/Industries/Industries';
-import Testimonials from '../../Component/Testimonials/Testimonials';
 import ClientsLogo from '../../Component/ClientsLogo/ClientsLogo';
 import Counter from '../../Component/Counter/Counter';
-import Contrabution from '../../Component/Contributation/Contributation';
 import WhatWeDo from '../../Component/WhatWeDo/WhatWeDo';
 import ApprovedBy from '../../Component/ApprovedBy/ApprovedBy';
 
 const HomePage = () => {
     return (
         <div>
-            <HomeComponent />
+            <HomeComponent/>
             <WhatWeDo/>
-            <OurServices />
-            <Structure />
-            <OurProjects />
+            <OurServices/>
+            <Structure/>
+            <OurProjects/>
             <Industries/>
             <Counter/>
-             {/* <Contrabution/> */}
             <ClientsLogo/>
             <ApprovedBy/>
         </div>

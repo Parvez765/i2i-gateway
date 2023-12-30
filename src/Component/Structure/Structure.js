@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Structure.css"
-import { FaChevronCircleRight } from "react-icons/fa";
 import Button from '../Button';
 
 const Structure = () => {

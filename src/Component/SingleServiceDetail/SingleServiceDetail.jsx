@@ -1,7 +1,5 @@
 import React from 'react';
 import { useLoaderData } from 'react-router';
-import { services } from '../../data/services';
-import Button from '../Button';
 import SectionHeading from '../SectionHeading/SectionHeading';
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPhoneAlt, FaEnvelopeOpen, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+// import { FaPhoneAlt, FaEnvelopeOpen, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const TopNav = () => {
     return (
