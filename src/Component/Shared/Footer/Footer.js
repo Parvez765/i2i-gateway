@@ -4,6 +4,7 @@ import "./Footer.css"
 import SubFooter from './SubFooter';
 import { Link } from 'react-router-dom';
 import footerLogo from "../../../assets/navLogo-01.png"
+import {services} from "../../../data/services";
 
 const Footer = () => {
     return (
@@ -22,29 +23,24 @@ const Footer = () => {
                     <div className='flex flex-col-reverse lg:flex-row gap-[30px] lg:gap-[100px]'>
                         <div>
                             <h1 className='text-[#002060] text-[16px] 2xl:text-[18px] mindWorksHead mb-[20px]'>Our Solutions</h1>
-                            <div>
-                                <h4 className=' bangladeshHead text-[#002060] mb-[8px] '>Mechanical</h4>
-                                <h4 className=' bangladeshHead text-[#002060] mb-[8px]'>HVAC</h4>
-                                <h4 className=' bangladeshHead text-[#002060] mb-[8px]'>Fire Fighting/Fire Suppression</h4>
-                                <h4 className=' bangladeshHead text-[#002060] mb-[8px]'>Electrical</h4>
-                                <h4 className=' bangladeshHead text-[#002060] mb-[8px]'>Plumbing</h4>
-                                <h4 className=' bangladeshHead text-[#002060] mb-[8px]'>Information Technology</h4>
+                            {
+                                services.map(el=>
+
+                            <Link className=' bangladeshHead text-[#002060] mb-[8px] block' key={el.id} to={`/service/${el.id}`}>{el.name}</Link>
+                                )
+                            }
 
                             </div>
-
-                        </div>
-                        <div className='mt-[50px] lg:mt-[0px]'>
-                            <h1 className='text-[#002060] text-[16px] 2xl:text-[18   px] mindWorksHead mb-[20px]'>Quick Links</h1>
-                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' /> About Us</p></Link>
-                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />Career</p></Link>
-                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />Get Quote</p></Link>
-                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />News</p></Link>
-                            <Link><p className='mb-[10px] flex items-center gap-[6px]'><FaCircle className='text-[10px]' />FAQ</p></Link>
+                        <div>
+                            <h1 className='text-[#002060] text-[16px] 2xl:text-[18px] mindWorksHead mb-[20px]'>Quick Links</h1>
+                            <Link className=' bangladeshHead text-[#002060] mb-[8px] block' to={'/about'}>About Us</Link>
+                            <Link className=' bangladeshHead text-[#002060] mb-[8px] block' to={'/portfolio'}>Projects</Link>
+                            <Link className=' bangladeshHead text-[#002060] mb-[8px] block' to={'/contact'}>Contact</Link>
 
                         </div>
                         
                     </div>
-                    <div className='mt-[50px] lg:mt-[0px]'>
+                    <div>
                             <h1 className='text-[#002060] text-[16px] 2xl:text-[18px] mindWorksHead mb-[20px]'>Get In Touch</h1>
                            <p className='mb-[10px] flex items-center gap-[12px]'><FaLocationArrow className='text-[20px]' /> House-43, Road-6, Block-D, Mirpur-12, Dhaka-1216</p>
                            <p className='mb-[10px] flex items-center gap-[12px]'><FaPhoneAlt className='text-[14px]' />+880 1815-098035</p>
